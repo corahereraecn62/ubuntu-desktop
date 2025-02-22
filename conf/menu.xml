@@ -55,16 +55,6 @@
 	<item label="NCSA Mosiac (AI)"><action name="Execute"><command>/app/scripts/ncsa_mosiac.AI.sh</command></action></item>
 </menu>
 
-<menu id="apps-network-bittorrent-menu" label="BitTorrent">
-	<item label="BiglyBT"><action name="Execute"><command>/app/scripts/biglybt.sh</command></action></item>
-	<item label="Deluge"><action name="Execute"><command>/app/scripts/deluge.sh</command></action></item>
-	<item label="QBitTorrent"><action name="Execute"><command>/app/scripts/qbittorrent.sh</command></action></item>
-	<item label="Ktorrent"><action name="Execute"><command>/app/scripts/ktorrent.sh</command></action></item>
-	<item label="TransmissionGtk"><action name="Execute"><command>/app/scripts/transmissiongtk.sh</command></action></item>
-	<item label="Bitstormlite"><action name="Execute"><command>/app/scripts/bitstormlite.sh</command></action></item>
-	<item label="Electorrent (AI)"><action name="Execute"><command>/app/scripts/electorrent.AI.sh</command></action></item>
-</menu>
-
 <menu id="apps-network-chat-menu" label="Chat">
 	<item label="Discord"><action name="Execute"><command>/app/scripts/discord.sh</command></action></item>
 	<item label="Empathy"><action name="Execute"><command>/app/scripts/empathy.sh</command></action></item>
@@ -86,7 +76,6 @@
 
 <menu id="apps-network-menu" label="Network">
 	<menu id="apps-network-browsers-menu"/>
-	<menu id="apps-network-bittorrent-menu"/>
 	<menu id="apps-network-chat-menu"/>
 	<menu id="apps-network-tools-menu"/>
 </menu>
